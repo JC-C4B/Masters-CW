@@ -1,0 +1,18 @@
+
+In order to change our previously organized Linked List program into a program that does the same with a Stack, 
+I should:
+
+1) Remove all imports relating to linked Lists, as well as the linked lists themselves.
+
+2) Import all necessary utilities for the stack and implement them in the place of the previously used linked lists
+
+3) Modify our 'inOrder' method to correctly organize the stack by implementing a second stack to hold any numbers 
+that are greater than the current number; making it so everything added to the second stack is done so in order.
+
+    I needed a little reminder on the organization of stacks so
+    for help on this organizational method I referred to this video:
+    https://www.youtube.com/watch?v=vFOY8rd_Bcw&t=61s
+
+4) Afterward, push the numbers from the second stack back into the main stack and print!
+
+5) Make sure to update comments and documentation in order to maintain the integrity of the code.
