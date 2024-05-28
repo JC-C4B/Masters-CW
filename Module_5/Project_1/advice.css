@@ -1,0 +1,65 @@
+
+/* 
+Our style reference, taking some influence from our calculator used in our Module 5 discussion,
+specifically the stylish buttons, and part of the color scheme!
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    align-items: center;
+}
+
+.container {
+    color: lightblue;
+    text-shadow: 1px 1px 1px darkblue;
+    max-width: 600px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 60px 17px lightblue;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: blue;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 1px cyan;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 1px cyan;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+p{  
+    color: pink;
+    text-shadow: 1px 1px 1px hotpink;
+    font-size: 15px;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(to top left, white, hotpink 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px pink, inset -2px -2px 3px hotpink;
+}
+
+button:hover{
+    background-color: hotpink;
+}
+
+
+

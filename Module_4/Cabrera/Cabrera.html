@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Titling the webpage -->
+        <title>
+            Module 4 Project
+        </title>
+        <meta charset="utf-8">
+
+        <!-- linking our css document as a reference -->
+        <link rel="stylesheet" type="text/css" href="ss.css"/>
+    </head>
+    <body>
+        <!-- Makign two different headers -->
+        <h1 class="head1"> Hello Colleague! </h1>
+        <h2 class="head2">Welcome to my Module 4 project webpage!</h2>
+        
+        <!-- Creating space for our paragraphs -->
+        <div class="box1">
+        <p> While I will most definitely be using the tools I learn from this project to create more fleshed out web pages moving forward,
+        <strong>this webpage</strong> will serve as my indroduction to HTML interacations with CSS. 
+        I hope you find it to be an ample testament to that.</p>
+        
+        <p><strong>In my opinion,</strong> this project was not as difficult as I had originally thought it would be. 
+        While the previous experience I've had with HTML/JavaScript has proved incredibly useful in this endeavor,
+        <em> the language is pretty intuitive.</em> Alongside the various things needed to create a functioning webpage,
+        I really feel as though ease of access was held to a high standard in the conception of the tools we have today.
+        As you can imagine, this makes me <strong><em>very</em></strong> happy because I feel confident in my understanding of the work behind a simple webpage.</p>
+        </div>
+
+        <!-- Making the buttons & having them run our functions on click -->
+        <button id="changeHeader" onclick="changeHeader()">Alter Main Header</button>
+        <button id="changeParagraph" onclick="changeParagraph()">Alter Paragraph Style</button>
+
+        <script>
+            
+            // Creating our function to change the header
+            function changeHeader() {
+                const header1 = document.querySelector(".head1");
+                header1.style.color = "brown";
+                header1.style.fontStyle = "italic";
+                header1.textContent = "Thank you for your time!"
+            }
+            
+            // Creating our function to change our paragraphs
+            function changeParagraph() {
+                const paragraphs = document.querySelectorAll("p");
+                paragraphs.forEach(paragraph => {
+                    paragraph.style.color = "brown";
+                    paragraph.style.fontStyle = "italic";
+                });
+            }
+            
+        </script>
+    </body>
+</html>

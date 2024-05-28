@@ -1,0 +1,62 @@
+/* Setting our background color */
+body {
+    background-color: beige;
+}
+
+/* Header 1 style */
+.head1 {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Header 2 style */
+.head2 {
+    color: brown;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Padding to make things neat */
+.box1 {
+    padding: 20px;
+}
+
+/* Setting paragraph font size */
+p {
+    font-size: 18px;
+}
+
+/* Designing our buttons */
+button {
+    background-color: silver;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Changing button color on hover */
+button:hover {
+    background-color: brown;
+}
+
+/* Making our buttons have no outline */
+button:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
