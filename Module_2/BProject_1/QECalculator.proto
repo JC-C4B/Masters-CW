@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package qe;
+
+message QEvar {
+    float a = 1;
+    float b = 2;
+    float c = 3;
+}
+
+message QEans {
+    repeated float ans = 1;
+}
+
+service QEcalculator {
+    rpc Calculate(QEvar) returns (QEans);
+}
