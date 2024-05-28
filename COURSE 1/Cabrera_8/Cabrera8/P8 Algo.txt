@@ -1,0 +1,152 @@
+
+1.) Create a Global list to prevent using the incorrect instance later on 
+
+2.) Create an Account class that takes: 
+        Account number
+        First name
+        Last name
+        SSN
+        PIN
+        Balance
+
+3.) Give Account class 3 functions:
+        A Deposit function that adds it's the value of it's parameter to the balance of the account object
+        A Withdraw function that removes the value of it's parameter from the balance of the account object
+        An isPinVaild method to check if the inputted value matches the PIN of the account
+
+4.) Create a Bank class that stores account objects in it's list (the global one from earlier)
+        As well as a constant that limits the amount of accounts that can be in the list at a certain time
+
+5.) Give Bank class 3 functions:
+        An addAccountToBank function that appends Account objects to the Bank list
+        A removeAccountFromBank function that removes accounts from the list by marking them as null
+        A findAccount function that uses a parameter to search through the Bank list to find an index that has a matching account number
+        (You can add a Monthly Interest function for extra credit)
+
+6.) Create a CoinCollector with one function:
+        A ParseChange function that takes a string parameter and deciphers the value of each letter through the use of an interal key.
+            o ‘P’ represents a penny (1 cent)
+            o ‘N’ represents a nickel (5 cents)
+            o ‘D’ represents a dime (10 cents)
+            o ‘Q’ represents a quarter (25 cents)
+            o ‘H’ represents a half-dollar (50 cents)
+            o ‘W’ represents a whole dollar (100 cents)
+
+7.) Create a BankManager Class with 2 functions, and an instance of the Bank class:
+        Your main method that handles looping through the transactions
+        A promptForAccountNumberAndPIN function to get user input to use as a parameter to find a specific Account
+
+8.) Have your main method display this options menu after every transaction, unless the user inputs 11
+        ============================================================
+        What do you want to do?
+        1. Open an account
+        2. Get account information and balance
+        3. Change PIN
+        4. Deposit money in account
+        5. Transfer money between accounts
+        6. Withdraw money from account
+        7. ATM withdrawal
+        8. Deposit change
+        9. Close an account
+        10. Add monthly interest to all accounts
+        11. End Program
+        ============================================================
+
+9.) Do this for each option:
+       
+    1.) Assign a random 8 digit account number (that does not start with 0) to a variable 
+        Make sure the same 8 digit account number does not get assigned again
+        Assign a random 4 digit pin to a variable
+        Assign a random SSN number that starts with 000 to a variable
+        Assign a user inputted first name to a variable
+        Assign a user inputted last name to a variable
+        Assign a float(balance of 0) to a variable to use as they account's starting balance
+        Input all variables as parameters in an instanced Account object
+        Use the addAccountToBank function to add the new account to the Bank
+
+    2.) Use the promptForAccountNumberAndPIN and findAccount function to find and display the account's information
+
+    3.) Use the promptForAccountNumberAndPIN and findAccount function to find the account object in question
+        Use the returned list index of the account to change it's PIN attribute
+
+    4.) Use the promptForAccountNumberAndPIN and findAccount function to find the account object in question
+        Use the returned list index of the account with the Deposit function to add the parameter's value
+        Make sure to not allow negative values, or parameters that are not integers
+
+    5.) Use the promptForAccountNumberAndPIN and findAccount function to find the account to transfer from
+        Use the returned list index of the account with the Withdraw function to subtract the parameter's value
+        Make sure to not allow negative values, or parameters that are not integers
+        Make sure there is enough money in the account to complete the transaction
+
+        Use the promptForAccountNumberAndPIN and findAccount function to find the account to transfer to
+        Use the returned list index of the account with the Deposit function to add the transfer parameter's value
+        Make sure to not allow negative values, or parameters that are not integers
+
+    6.) Use the promptForAccountNumberAndPIN and findAccount function to find the account object in question
+        Use the returned list index of the account with the Withdraw function to subtract the parameter's value
+        Make sure to not allow negative values, or parameters that are not integers
+        Make sure there is enough money in the account to complete the transaction
+
+    7.) Use the promptForAccountNumberAndPIN and findAccount function to find the account object in question
+        Prompt the user for an amount to withdraw, while making sure it is a multiple of 5, and less than $1000
+        Print an error response if the conditions are not met
+        Calculate and print the number of 20, 10, and 5 dollar bills neccessary to equal the amount being withdrawn
+        Use the Withdraw function to withdraw the amount from the specified account
+
+    8.) Use the promptForAccountNumberAndPIN and findAccount function to find the account object in question
+        Call the CoinCollector class's ParseChange function to decipher the value of the user inputted parameter
+        Deposit the amount deciphered into the account
+
+    9.) Use the promptForAccountNumberAndPIN and findAccount function to find the account object in question
+        Use the removeAccountFromBank function to mark the account as null
+
+    10.) Extra Credit: 
+        Create a monthly interest function that takes annual interest as a parameter
+        Divide the inputted parameter by 100 to get the monthly interest
+        Loop through all accounts, multiply their balance by the monthly interest and Deposit the result to their balance
+
+    11.) Print a goodbye message and break the loop to end the Program
+
+10.) Call you BankManager.main function
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

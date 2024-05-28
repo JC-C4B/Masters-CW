@@ -1,0 +1,43 @@
+
+1.) Define your main function
+2.) Create a Rectangle class that takes the parameters Length and Width
+3.) Create a function within the class to calculate the Perimeter 
+    Formula: return 2*eval(self.Length) + 2*eval(self.Width)
+4.) Create a function within the class to calculate the Area
+    Formula: return eval(self.Length) * eval(self.Width)
+5.) Create a function to display the Length, Width, Perimeter, and Area of the Rectangle
+6.) Create a Parallelepiped subclass that inherits the length and width of your Rectangle
+7.) Create a function within that class to calculate volume
+    Formula: return eval(self.Length) * eval(self.Width) * eval(self.Height)
+8.) Create and instance of the Rectangle class that asks for a length and width to plug in to the equations
+9.) Create a new Parallelepiped
+    Take the Length and Width of the new Rectangle and plug them into the Parallelepiped
+    Ask the user for a height value
+10.) Calculate and print the volume of the Parallelepiped
+11.) Call main function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

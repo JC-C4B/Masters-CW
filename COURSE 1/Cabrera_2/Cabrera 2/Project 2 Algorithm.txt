@@ -1,0 +1,35 @@
+
+1.) Welcome the user to the program & explain parameter restrictions.
+2.) Create a function
+3.) Within the function, create a while True loop to continuously execute the function after completion
+4.) Try prompting the user to input two values and equate them to two variables (a, b)
+5.) Run the inputted values through your exceptions before plugging them into your formula;
+    Check if the inputs are valid integers
+    Check if the inputs will create a zero division error
+    Make an exception for any unexpected errors
+        Restart/continue function depending on whether or not any are triggered
+6.) Check if the inputs are positive integers, restart/continue depending on whether they are or aren't
+7.) Make separate function to take curated inputs and find their remainders from both a % b, and b % a
+8.) If the remainder of either is 0, return True.
+    If the remainder of either is not 0, return False.
+9.) If the function parameter is True, tell the user their inputs were evenly divisble, and break to continue the loop
+    Else; tell the user their inputs were not evenly divisible and continue the loop.
+10.) Make sure to call the function so it executes.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
