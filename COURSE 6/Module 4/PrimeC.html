@@ -1,0 +1,95 @@
+
+<!-- @author Juan Carlos Cabrera -->
+<!-- Forming the html document -->
+<!DOCTYPE html>
+<html>
+
+<!-- Making the header of the web page -->
+<head>
+    <title>Prime Check</title>
+
+    <!-- Creating the section for our function -->
+    <script>
+
+        // Defining our Prime function
+        function isPrime() {
+
+            // Declaring the user input variable we'll be using in the function
+            var n = parseInt(document.getElementById("nbr").value);
+
+            // Making a boolean variable to influence text output
+            var isPrime = false;
+
+            // Translating the C++ version of code into JS for each case
+            if (n <= 1){
+                isPrime = false;
+            } else if (n <= 3){
+                isPrime = true;
+            } else if (n % 2 === 0 || n % 3 === 0){
+                isPrime = false;
+            } else {
+                isPrime = true;
+
+                for (let i = 5; i * i <= n; i += 6) {
+                    if (n % i === 0 || n % (i + 2) === 0) {
+                        isPrime = false;
+                        break;
+                }
+
+            }
+        }
+
+        // Letting the webpage know which answer to output based on the 'isPrime' boolean
+        document.getElementById("outputAnswer").innerText = isPrime ? "The number you entered is prime!" : "The number you entered is not prime."
+    }
+    </script>
+</head>
+
+<!-- Creating the body of our webpage using the assignment instructions as a guide -->
+<body>
+
+    <!-- Having the function run on the user input only when the button is clicked -->
+    <!-- Then updating the 'outputAnswer' to the correct answer -->
+    <h1 style="color:red">Prime Checker</h1>   
+        <label>Enter a number from 2 to 9999:</label>
+        <input type="number" id="nbr"> <br> <br>
+        <button onclick="isPrime()">Submit</button>
+    <p id="outputAnswer">I'm waiting...</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
