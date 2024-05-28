@@ -1,0 +1,40 @@
+
+
+ Algorithm for Project 1 by Juan Carlos Cabrera
+
+ 1.) Import math, and from math import pi to make use of the accurate value of pi.
+ 2.) Greet user through printed message, and ask user for a radius value through input.
+ 3.) Define user input as a variable (r), and assure it is evaluated so it may be calcuated properly as a float / int.
+ 4.) Create separte functions for each formula, and feed the user input into the proper formulas;
+       Circumference: C = 2πr (C = 2 * pi * r)
+       Area = A = πr**2 (A = pi * r**2)
+       Volume = 4/3 πr**3 (V = 4/3 * pi * r**3)
+ 5.) After using the respective functions, make sure to have each result printed clearly.       
+ 6.) Give the user the option to restart the script or exit by creating another input based function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

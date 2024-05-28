@@ -1,0 +1,43 @@
+
+
+
+1.) Define your main function
+2.) Create a "Student" class that takes the parameters name and age
+    Initialize the class
+3.) Create a function within the class to display it's contents
+4.) Create an "Engineer" subclass that inherits the name and age from your Student class
+    Give it a third attribute called courses
+5.) Create a function within that subclass to display it's contents (displayEngineer)
+6.) Create a "Doctor" subclass that inherits the name and age from your Student class
+    Give it a third attribute called hospital
+7.) Create a function within that subclass to display it's contents (displayDoctor)
+8.) Create an instance of the Engineer subclass
+9.) Use the displayEngineer function to show it's contents
+10.) Create an instance of the Doctor subclass 
+11.) Use the displayDoctor function to show it's contents
+12.) Call main function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

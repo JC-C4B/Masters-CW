@@ -1,0 +1,32 @@
+
+# a = 3
+# b = 4
+# tmp1 = a ** 2
+# tmp2 = b ** 2
+# tmp3 = tmp1 + tmp2
+# squirt = tmp3 ** 2
+# c = squirt ** 0.5
+
+# print(c)
+
+def main():
+
+    def howdy():
+        friend = input("What's your name?: ")
+        print("Howdy", friend, "!")
+
+    howdy()   
+
+
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
+
+

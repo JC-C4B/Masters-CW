@@ -1,0 +1,44 @@
+
+
+
+1.) Define your main function
+2.) Within your main function, create a Deque class
+3.) Initialize your Deque class as a list
+4.) Create a function to display the queue
+        print(self.queue)
+5.) Create a function to add an item to the front of the queue
+    self.queue.append(item)
+6.) Create a function to add an item to the back of the queue 
+    self.queue.insert(0, item)
+7.) Create a function to remove an item to the front of the queue
+    print(self.queue.pop())
+8.) Create a function to remove an item to the back of the queue 
+    print(self.queue.pop(0))
+9.) Create an instance of the Deque class to test your functions
+    Optional: Create a function to check if the queue is empty 
+    (as a test to see if everything is being added/removed correctly)
+10.) Use the previously created functions to add and remove things from the instanced queue
+    I added a couple of numbers, a string, and a boolean to test the capacity of the list
+11.) execute your main function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

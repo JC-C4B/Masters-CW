@@ -1,0 +1,53 @@
+
+
+1.) Make a variable for your grid size, and number of ships
+2.) Declare your grid/array
+3.) Create a function to draw your grid/array
+        Have it print the necessary rows and columns
+4.) Create a function to set up the board before drawing it
+        Have it label free spaces with a " . "
+        Have it make 5 ships, and label their tiles with an " S "
+        Assure the 5 ships are all in separate, random tiles.
+5.) Create a function to check for a hit or miss using user input for a row and column
+        Have it ask for a valid placement only if one is not inputted
+        Have it prepared in case of an unknown error
+        Have it return the valid values the user chose for row and column
+        Have it change the ship " S " to " X " and print("HIT!") if hit
+        Have it change tile to " O " and print("MISS!") if miss
+            If the same tile is chosen again, have it repeat the applicable message
+6.) Create a function to count the ships that have been hit
+7.) Create a function to check if the game is over
+        Have it take the ship count 
+            Return True if ship count == 5
+            Else return False 
+8.) Create your main function
+        Set up the grid/array
+        Welcome the player
+        Have the functions run while the isGameOver function == False
+        Have the game break when the isGameOver function == True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
